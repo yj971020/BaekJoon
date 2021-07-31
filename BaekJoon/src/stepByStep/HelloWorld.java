@@ -1,4 +1,4 @@
-package StepByStep;
+package stepByStep;
 
 public class HelloWorld {
 
