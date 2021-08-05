@@ -3,16 +3,18 @@ package stepByStep;
 import java.util.Scanner;
 
 public class Main {
-
 	public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
-		int n=Integer.parseInt(s.next());
-		int sum=0;
-		for(int i=0; i<=n ;i++) {
-			sum+=i;
-		}
-		System.out.println(sum);
 		
-	}
-	
+		Scanner scanner = new Scanner (System.in);
+		int A = Integer.parseInt(scanner.next());
+		int B =Integer.parseInt(scanner.next());
+		
+		if(A>B) {
+			System.out.println(">");
+		}else if(A<B) {
+			System.out.println("<");
+		}else {
+			System.out.println("==");
+		}
+	}	
 }
